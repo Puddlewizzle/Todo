@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #595959;
+}
+
+body .todo {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+body .todo header {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .todo header button {
+  font-weight: 900;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+body .todo header button:hover {
+  color: #e9e9e9;
+}
+
+body .todo ul {
+  overflow-y: auto;
+  height: 80vh;
+  background-color: #F9F9F9;
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  list-style: none;
+  font-weight: 900;
+  color: #000;
+}
+
+body .todo ul li {
+  margin: 0 auto;
+  padding: 20px 0 15px 20px;
+  width: 260px;
+  border-bottom: 2px solid #FFCBCB;
+}
+
+body .todo footer {
+  padding: 5px 0 0 0;
+  font-weight: 700;
+  color: #242424;
+  font-size: 12px;
+}
+
+body .todo footer a {
+  text-decoration: none;
+  color: inherit;
+}
+/*# sourceMappingURL=style.css.map */
